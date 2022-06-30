@@ -2,7 +2,7 @@ from tkinter import *
 
 import requests
 
-
+# request func
 def get_quote():
     response = requests.get(url="https://api.kanye.rest")
 
