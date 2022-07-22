@@ -2,4 +2,4 @@
 
 This is public api that provide amazing quotes
 
-i just created amazing project using this api
+I just created amazing project using this api and tkinter UI
