@@ -11,7 +11,7 @@ def get_quote():
     canvas.itemconfig(quote_text, text=data)
 
 
-# design os app
+# design UI by tkinter
 
 window = Tk()
 window.title("Kanye Says...")
@@ -27,5 +27,4 @@ kanye_img = PhotoImage(file="kanye.png")
 kanye_button = Button(image=kanye_img, highlightthickness=0, command=get_quote)
 kanye_button.grid(row=1, column=0)
 
-# loop 
 window.mainloop()
